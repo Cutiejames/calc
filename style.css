@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:wght@700&family=Kanit&family=Oswald:wght@600&family=Pacifico&family=Permanent+Marker&family=Signika:wght@500&display=swap');@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Kanit&family=Oswald:wght@600&family=Pacifico&family=Permanent+Marker&family=Signika:wght@500&display=swap');
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(./bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#converter {
+  text-align: left;
+  padding: 40px;
+  background-color: #274654;
+  height: auto;
+  width: 40%;
+  border-radius: 30px;
+  box-shadow: 9px 9px #30414194;
+  font-family: 'Acme', sans-serif;
+  color: #f2f6fd;
+  text-shadow: #f2f6fd3a 2px 2px;
+}
+.container{
+  text-align: center;
+}
+#converter h2{
+  text-align: center;
+}
+.input_num{
+  text-align: left;
+}
+.button_box{
+  text-align: center;
+}
+button{
+  padding: 10px;
+}
+.convert_box{
+  text-align: left;
+  margin-bottom: 30px;
+}
+label{
+  font-size: 20px;
+}
+input{
+  padding: 25px;
+  background-color: #efefe9;
+  color:#c3833d;
+  border: #756e2c 3px solid;
+  border-radius: 30px;
+}
+select{
+  padding: 15px;
+  background-color: #efefe9;
+  border-radius: 30px;
+  color:#c3833d;
+  border: #756e2c 3px solid;
+}
+.result_box{
+  background-color: #efefe9;
+  text-align: end;
+  margin-bottom: 30px;
+  height: 150px;
+  border-radius: 30px;
+  border: #756e2c 3px solid;
+}
+.result_box h3{
+  text-align: left;
+  color:#c3833d;
+}
+#result{
+  font-size: 25px;
+  text-align: center;
+}
+::placeholder{
+  color:#c3833d;
+}
